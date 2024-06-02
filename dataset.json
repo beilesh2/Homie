@@ -1,0 +1,634 @@
+{
+  "house":{
+    "type": "דירה",
+    "nofRooms": 5,
+    "ai": "כיוון: מזרח, דרום. יש חדר ארונות לכן לא צריך ארונות נוספים",
+    "name": "בית",
+    "budget": 45180,
+    "status": "y",
+    "rooms":{
+      "name": "חדרים",
+      "budget": 45180,
+      "status": "y",
+      "1":{
+        "type": "סלון",
+        "name": "סלון",
+        "ai": "שני חלונות: מזרח-גדול, דרום-קטן",
+        "status": "y",
+        "budget": 37800,
+        "size": 20,
+        "length": 5,
+        "width": 4,
+        "items":{
+          "1":{
+            "category": "ריהוט",
+            "type": "ספה",
+            "name": "שזלונג",
+            "ai": "נצמדת לשמאל",
+            "length": 2,
+            "width": 3.7,
+            "budget": 5000,
+            "status": "r",
+            "isPreOwned": false
+          },
+          "2":{
+            "category": "ריהוט",
+            "type": "שולחן",
+            "name": "שולחן סלון",
+            "ai": "",
+            "length": 2,
+            "width": 1,
+            "budget": 0,
+            "status": "g",
+            "isPreOwned": true
+          },
+          "3":{
+            "category": "ריהוט",
+            "type": "שולחן",
+            "name": "שולחן אוכל",
+            "ai": "",
+            "length": 2,
+            "width": 1,
+            "budget": 2000,
+            "status": "r",
+            "isPreOwned": true
+          },
+          "4":{
+            "category": "ריהוט",
+            "type": "כסא",
+            "name": "כסאות שולחן אוכל",
+            "ai": "6 כסאות",
+            "length": 2,
+            "width": 1,
+            "budget": 1800,
+            "status": "r",
+            "isPreOwned": true
+          },
+          "5":{
+            "category": "תאורה",
+            "type": "מנורה",
+            "name": "תאורת שולחן אוכל",
+            "ai": "",
+            "length": 0,
+            "width": 0,
+            "budget": 1000,
+            "status": "r",
+            "isPreOwned": false
+          },
+          "6":{
+            "category": "תאורה",
+            "type": "מנורה",
+            "name": "תאורה ראשית",
+            "ai": "",
+            "length": 0,
+            "width": 0,
+            "budget": 2000,
+            "status": "r",
+            "isPreOwned": false
+          },
+          "7":{
+            "category": "צמחיה",
+            "type": "עציץ",
+            "name": "עציצים",
+            "ai": "",
+            "length": 0,
+            "width": 0,
+            "budget": 1000,
+            "status": "r",
+            "isPreOwned": false
+          },
+          "8":{
+            "category": "שטיחים",
+            "type": "שטיח",
+            "name": "שטיח",
+            "ai": "",
+            "length": 3,
+            "width": 2,
+            "budget": 4000,
+            "status": "r",
+            "isPreOwned": false
+          },
+          "9":{
+            "category": "ריהוט",
+            "type": "שידה",
+            "name": "שידת טלוויזיה",
+            "ai": "",
+            "length": 2,
+            "width": 1,
+            "budget": 2000,
+            "status": "r",
+            "isPreOwned": true
+          },
+          "10":{
+            "category": "ריהוט",
+            "type": "מדף",
+            "name": "מדפים",
+            "ai": "",
+            "length": 0.5,
+            "width": 1,
+            "budget": 1000,
+            "status": "r",
+            "isPreOwned": true
+          },
+          "11":{
+            "category": "חשמל",
+            "type": "טלוויזיה",
+            "name": "טלוויזיה",
+            "ai": "",
+            "length": 1.5,
+            "width": 2,
+            "budget": 8000,
+            "status": "r",
+            "isPreOwned": true
+          },
+          "12":{
+            "category": "וילונות",
+            "type": "וילון",
+            "name": "וילון",
+            "ai": "",
+            "length": 5,
+            "width": 2,
+            "budget": 5000,
+            "status": "r",
+            "isPreOwned": true
+          },
+          "13":{
+            "category": "ריהוט",
+            "type": "כורסא",
+            "name": "כורסא",
+            "ai": "",
+            "length": 1,
+            "width": 1,
+            "budget": 3000,
+            "status": "r",
+            "isPreOwned": true
+          },
+          "14":{
+            "category": "ריהוט",
+            "type": "שולחן",
+            "name": "שולחן עבודה",
+            "ai": "",
+            "length": 1.5,
+            "width": 1,
+            "budget": 1000,
+            "status": "r",
+            "isPreOwned": true
+          },
+          "15":{
+            "category": "ריהוט",
+            "type": "כסא",
+            "name": "כסא שולחן עבודה",
+            "ai": "",
+            "length": 0.5,
+            "width": 0.5,
+            "budget": 500,
+            "status": "r",
+            "isPreOwned": true
+          },
+          "16":{
+            "category": "תמונות",
+            "type": "תמונה",
+            "name": "תמונה",
+            "ai": "",
+            "length": 0.5,
+            "width": 0.5,
+            "budget": 500,
+            "status": "r",
+            "isPreOwned": true
+          }
+
+        }
+      },
+      "2":{
+        "type": "שינה",
+        "name": "הורים",
+        "ai": "שני חלונות: מזרח-גדול, דרום-קטן",
+        "status": "r",
+        "budget": 14000,
+        "length": 4,
+        "width": 4,
+        "items":{
+          "1":{
+            "category": "ריהוט",
+            "type": "מיטה",
+            "name": "מיטה",
+            "ai": "",
+            "length": 2,
+            "width": 1.8,
+            "budget": 3000,
+            "status": "r",
+            "isPreOwned": false
+          },
+          "3":{
+            "category": "שטיחים",
+            "type": "שטיח",
+            "name": "שטיח",
+            "ai": "שטיח עגול",
+            "length": 1.5,
+            "width": 1.5,
+            "budget": 4000,
+            "status": "r",
+            "isPreOwned": false
+          },
+          "4":{
+            "category": "תאורה",
+            "type": "מנורה",
+            "name": "תאורה",
+            "ai": "",
+            "length": 0,
+            "width": 0,
+            "budget": 1000,
+            "status": "r",
+            "isPreOwned": false
+          },
+          "5":{
+            "category": "צמחיה",
+            "type": "עציץ",
+            "name": "עציץ",
+            "ai": "",
+            "length": 0,
+            "width": 0,
+            "budget": 500,
+            "status": "r",
+            "isPreOwned": false
+          },
+          "6":{
+            "category": "ריהוט",
+            "type": "שידה",
+            "name": "שידה",
+            "ai": "",
+            "length": 2,
+            "width": 1,
+            "budget": 2500,
+            "status": "r",
+            "isPreOwned": true
+          },
+          "7":{
+            "category": "ריהוט",
+            "type": "מדף",
+            "name": "מדפים",
+            "ai": "",
+            "length": 0.5,
+            "width": 1,
+            "budget": 1000,
+            "status": "r",
+            "isPreOwned": true
+          },
+          "8":{
+            "category": "חשמל",
+            "type": "טלוויזיה",
+            "name": "טלוויזיה",
+            "ai": "",
+            "length": 1.5,
+            "width": 1,
+            "budget": 2000,
+            "status": "r",
+            "isPreOwned": true
+          }
+
+        }
+      },
+      "3":{
+        "type": "שינה",
+        "name": "ליה",
+        "ai": "",
+        "status": "r",
+        "budget": 8500,
+        "length": 4,
+        "width": 3,
+        "items":{
+          "1":{
+            "category": "ריהוט",
+            "type": "מיטה",
+            "name": "מיטה",
+            "ai": "",
+            "length": 1.5,
+            "width": 1.2,
+            "budget": 2500,
+            "status": "r",
+            "isPreOwned": false
+          },
+          "2":{
+            "category": "שטיחים",
+            "type": "שטיח",
+            "name": "שטיח",
+            "ai": "",
+            "length": 2,
+            "width": 1,
+            "budget": 1000,
+            "status": "r",
+            "isPreOwned": false
+          },
+          "3":{
+            "category": "תאורה",
+            "type": "מנורה",
+            "name": "תאורה",
+            "ai": "",
+            "length": 0,
+            "width": 0,
+            "budget": 500,
+            "status": "r",
+            "isPreOwned": false
+          },
+          "4":{
+            "category": "ריהוט",
+            "type": "מדף",
+            "name": "מדפים",
+            "ai": "",
+            "length": 0.5,
+            "width": 1,
+            "budget": 1000,
+            "status": "r",
+            "isPreOwned": true
+          },
+          "5":{
+            "category": "חשמל",
+            "type": "טלוויזיה",
+            "name": "טלוויזיה",
+            "ai": "",
+            "length": 1.5,
+            "width": 2,
+            "budget": 2000,
+            "status": "r",
+            "isPreOwned": true
+          },
+          "6":{
+            "category": "ריהוט",
+            "type": "שולחן",
+            "name": "שולחן",
+            "ai": "",
+            "length": 1.5,
+            "width": 1,
+            "budget": 1000,
+            "status": "r",
+            "isPreOwned": true
+          },
+          "7":{
+            "category": "ריהוט",
+            "type": "כסא",
+            "name": "כסא",
+            "ai": "",
+            "length": 0.5,
+            "width": 0.5,
+            "budget": 500,
+            "status": "r",
+            "isPreOwned": true
+          }
+        }
+      },
+      "4":{
+        "type": "שינה",
+        "name": "מור",
+        "ai": "שני חלונות",
+        "status": "y",
+        "budget": 9000,
+        "length": 4,
+        "width": 3,
+        "items":{
+          "1":{
+            "category": "ריהוט",
+            "type": "מיטה",
+            "name": "מיטה",
+            "ai": "",
+            "length": 1.5,
+            "width": 1.2,
+            "budget": 3000,
+            "status": "r",
+            "isPreOwned": false
+          },
+          "2":{
+            "category": "שטיחים",
+            "type": "שטיח",
+            "name": "שטיח",
+            "ai": "",
+            "length": 2,
+            "width": 1,
+            "budget": 1000,
+            "status": "r",
+            "isPreOwned": false
+          },
+          "3":{
+            "category": "תאורה",
+            "type": "מנורה",
+            "name": "תאורה",
+            "ai": "",
+            "length": 0,
+            "width": 0,
+            "budget": 500,
+            "status": "r",
+            "isPreOwned": false
+          },
+          "4":{
+            "category": "ריהוט",
+            "type": "מדף",
+            "name": "מדפים",
+            "ai": "",
+            "length": 0.5,
+            "width": 1,
+            "budget": 1000,
+            "status": "r",
+            "isPreOwned": true
+          },
+          "5":{
+            "category": "חשמל",
+            "type": "טלוויזיה",
+            "name": "טלוויזיה",
+            "ai": "",
+            "length": 1.5,
+            "width": 2,
+            "budget": 2000,
+            "status": "r",
+            "isPreOwned": true
+          },
+          "6":{
+            "category": "ריהוט",
+            "type": "שולחן",
+            "name": "שולחן",
+            "ai": "",
+            "length": 1.5,
+            "width": 1,
+            "budget": 1000,
+            "status": "r",
+            "isPreOwned": true
+          },
+          "7":{
+            "category": "ריהוט",
+            "type": "כסא",
+            "name": "כסא",
+            "ai": "",
+            "length": 0.5,
+            "width": 0.5,
+            "budget": 500,
+            "status": "r",
+            "isPreOwned": true
+          }
+        }
+      },
+      "5":{
+        "type": "שינה",
+        "name": "נינה",
+        "ai": "חלון מערבי",
+        "status": "r",
+        "budget": 8000,
+        "length": 4,
+        "width": 3,
+        "items":{
+          "1":{
+            "category": "ריהוט",
+            "type": "מיטה",
+            "name": "מיטה",
+            "ai": "",
+            "length": 1.5,
+            "width": 1.2,
+            "budget": 2000,
+            "status": "r",
+            "isPreOwned": false
+          },
+          "2":{
+            "category": "שטיחים",
+            "type": "שטיח",
+            "name": "שטיח",
+            "ai": "",
+            "length": 2,
+            "width": 1,
+            "budget": 1000,
+            "status": "r",
+            "isPreOwned": false
+          },
+          "3":{
+            "category": "תאורה",
+            "type": "מנורה",
+            "name": "תאורה",
+            "ai": "",
+            "length": 0,
+            "width": 0,
+            "budget": 500,
+            "status": "r",
+            "isPreOwned": false
+          },
+          "4":{
+            "category": "ריהוט",
+            "type": "מדף",
+            "name": "מדפים",
+            "ai": "",
+            "length": 0.5,
+            "width": 1,
+            "budget": 1000,
+            "status": "r",
+            "isPreOwned": true
+          },
+          "5":{
+            "category": "חשמל",
+            "type": "טלוויזיה",
+            "name": "טלוויזיה",
+            "ai": "",
+            "length": 1.5,
+            "width": 2,
+            "budget": 2000,
+            "status": "r",
+            "isPreOwned": true
+          },
+          "6":{
+            "category": "ריהוט",
+            "type": "שולחן",
+            "name": "שולחן",
+            "ai": "",
+            "length": 1.5,
+            "width": 1,
+            "budget": 1000,
+            "status": "r",
+            "isPreOwned": true
+          },
+          "7":{
+            "category": "ריהוט",
+            "type": "כסא",
+            "name": "כסא",
+            "ai": "",
+            "length": 0.5,
+            "width": 0.5,
+            "budget": 500,
+            "status": "r",
+            "isPreOwned": true
+          }
+        }
+      },
+      "6":{
+        "type": "שירותים",
+        "name": "שירותים כללי",
+        "ai": "",
+        "status": "r",
+        "budget": 1900,
+        "length": 3,
+        "width": 2,
+        "items":{
+          "1":{
+            "category": "קרמיקה",
+            "type": "אסלה",
+            "name": "אסלה",
+            "ai": "",
+            "length": 0.5,
+            "width": 0.5,
+            "budget": 900,
+            "status": "r",
+            "isPreOwned": false
+          },
+          "2":{
+            "category": "קרמיקה",
+            "type": "כיור",
+            "name": "כיור",
+            "ai": "",
+            "length": 0.5,
+            "width": 0.5,
+            "budget": 1000,
+            "status": "r",
+            "isPreOwned": false
+          }
+        }
+      },
+      "7":{
+        "type": "מרפסת",
+        "name": "מרפסת סלון",
+        "ai": "",
+        "status": "g",
+        "budget": 0,
+        "length": 3,
+        "width": 2,
+        "items":{
+        }
+      },
+      "8":{
+        "type": "מסדרון",
+        "name": "מסדרון ראשי",
+        "ai": "",
+        "status": "g",
+        "budget": 0,
+        "length": 3,
+        "width": 2,
+        "items":{
+        }
+      },
+      "9":{
+        "type": "ארונות",
+        "name": "חדר ארונות",
+        "ai": "גדול, לכן לא צריך ארונות בבית",
+        "status": "g",
+        "budget": 0,
+        "length": 2,
+        "width": 1.5,
+        "items":{
+        }
+      },
+      "10":{
+        "type": "מזווה",
+        "name": "מזווה",
+        "ai": "",
+        "status": "g",
+        "budget": 0,
+        "length": 2,
+        "width": 1.5,
+        "items":{
+        }
+      }
+    }
+  }
+}

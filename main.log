@@ -1,0 +1,49 @@
+INFO:__main__:Started
+INFO:httpx:HTTP Request: GET https://api.openai.com/v1/assistants/asst_nLbdMNrnyGDFrIiSEqzoyTzj "HTTP/1.1 200 OK"
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:__main__:index
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+INFO:werkzeug:127.0.0.1 - - [06/May/2024 15:30:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2024 15:30:22] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2024 15:30:22] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2024 15:30:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:__main__:ask
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/threads/thread_hzezB5wMkxEWefyLZKDPWXpw/messages "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/threads/thread_hzezB5wMkxEWefyLZKDPWXpw/runs "HTTP/1.1 200 OK"
+INFO:werkzeug:127.0.0.1 - - [06/May/2024 15:30:39] "POST /ask HTTP/1.1" 200 -
+INFO:__main__:Started
+INFO:httpx:HTTP Request: GET https://api.openai.com/v1/assistants/asst_nLbdMNrnyGDFrIiSEqzoyTzj "HTTP/1.1 200 OK"
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:__main__:index
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+INFO:werkzeug:127.0.0.1 - - [06/May/2024 15:38:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2024 15:38:09] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2024 15:38:09] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2024 15:38:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:__main__:ask
+INFO:__main__:thread.id: thread_w3OT7OHDCdiGuesZ26n8H80C ; assistant.id: asst_nLbdMNrnyGDFrIiSEqzoyTzj 
+INFO:__main__:try
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/threads/thread_w3OT7OHDCdiGuesZ26n8H80C/messages "HTTP/1.1 200 OK"
+INFO:__main__:Create and Stream a Run
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/threads/thread_w3OT7OHDCdiGuesZ26n8H80C/runs "HTTP/1.1 200 OK"
+INFO:__main__:reply
+INFO:werkzeug:127.0.0.1 - - [06/May/2024 15:38:26] "POST /ask HTTP/1.1" 200 -
+INFO:__main__:ask
+INFO:__main__:thread.id: thread_w3OT7OHDCdiGuesZ26n8H80C ; assistant.id: asst_nLbdMNrnyGDFrIiSEqzoyTzj 
+INFO:__main__:try
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/threads/thread_w3OT7OHDCdiGuesZ26n8H80C/messages "HTTP/1.1 200 OK"
+INFO:__main__:Create and Stream a Run
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/threads/thread_w3OT7OHDCdiGuesZ26n8H80C/runs "HTTP/1.1 200 OK"
+INFO:__main__:ask
+INFO:__main__:thread.id: thread_w3OT7OHDCdiGuesZ26n8H80C ; assistant.id: asst_nLbdMNrnyGDFrIiSEqzoyTzj 
+INFO:__main__:try
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/threads/thread_w3OT7OHDCdiGuesZ26n8H80C/messages "HTTP/1.1 400 Bad Request"
+INFO:__main__:Error during request processing: Error code: 400 - {'error': {'message': "Can't add messages to thread_w3OT7OHDCdiGuesZ26n8H80C while a run run_3VgeTl18GJoRILH9Vf5dczmo is active.", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+INFO:__main__:thread.id: thread_w3OT7OHDCdiGuesZ26n8H80C ; assistant.id: asst_nLbdMNrnyGDFrIiSEqzoyTzj 
+INFO:werkzeug:127.0.0.1 - - [06/May/2024 15:38:30] "POST /ask HTTP/1.1" 200 -
+INFO:__main__:reply
+INFO:werkzeug:127.0.0.1 - - [06/May/2024 15:38:42] "POST /ask HTTP/1.1" 200 -
