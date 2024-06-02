@@ -23,11 +23,11 @@ reloadDataset = True
 # Initialize OpenAI client
 IsTal = False
 
-HAGAI_ApiKey = "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"
-HAGAI_ASST = "asst_kgpwc7dVBODphcB487klnaKe"
-HAGAI_ASST_SYNC = "asst_jCqqj30IHlSfYxM01EouD5of" #"asst_IkhVWEN8vZkEWimCfdW6eSx6"
-TAL_ApiKey = "sk-proj-BFbKzzb27bFbEndEZ5vET3BlbkFJGxqw2dRntSfYeF8CeTr3"
-TAL_ASST = "asst_nLbdMNrnyGDFrIiSEqzoyTzj"
+HAGAI_ApiKey = ""
+HAGAI_ASST = ""
+HAGAI_ASST_SYNC = ""
+TAL_ApiKey = ""
+TAL_ASST = ""
 
 ApiKey = TAL_ApiKey if IsTal else HAGAI_ApiKey
 #AsstId = TAL_ASST if IsTal else HAGAI_ASST
